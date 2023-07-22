@@ -1,0 +1,45 @@
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: absolute !important;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -100;
+}
+
+html {
+    -moz-text-size-adjust: auto;
+    -webkit-text-size-adjust: auto;
+    text-size-adjust: auto;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+.main {
+    margin-top: 100px;
+}
